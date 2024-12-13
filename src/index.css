@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Base button styles */
+.btn {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Clear Button */
+  .btn-clear {
+    background-color: #1a0707;
+    color: white;
+  }
+  
+  .btn-clear:hover {
+    background-color: #9b1717;
+  }
+  
+  /* Delete Button */
+  .btn-delete {
+    background-color: #6b0606;
+    color: white;
+  }
+  
+  .btn-delete:hover {
+    background-color: #5f2b0e;
+  }
+  
+  /* Operator Button */
+  .btn-operator {
+    background-color: #153a77;
+    color: white;
+  }
+  
+  .btn-operator:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Number Button */
+  .btn-number {
+    background-color: #e5e7eb;
+    color: black;
+  }
+  
+  .btn-number:hover {
+    background-color: #d1d5db;
+  }
+  
+  /* Equal Button */
+  .btn-equal {
+    background-color: #0c5c2a;
+    color: white;
+  }
+  
+  .btn-equal:hover {
+    background-color: #16a34a;
+  }
+  
